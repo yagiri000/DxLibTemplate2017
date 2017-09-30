@@ -14,9 +14,9 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
 	fontHandle = CreateFontToHandle("Segoe UI", 20, 5, DX_FONTTYPE_ANTIALIASING_4X4);//フォントを読み込み
 
-																					 //
-																					 //ここで敵やプレイヤーのオブジェクトの実体を作る
-																					 //
+	//
+	//ここで敵やプレイヤーのオブジェクトの実体を作る
+	//
 
 	while (ProcessMessage() == 0)
 	{
