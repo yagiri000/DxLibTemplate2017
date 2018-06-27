@@ -120,10 +120,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="MyGlobal.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="MyGlobal.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
